@@ -1,0 +1,102 @@
+Function: x**2
+Order 1 Taylor Expansion: 0
+Order 2 Taylor Expansion: 0
+Order 3 Taylor Expansion: x**2
+Order 4 Taylor Expansion: x**2
+
+Function: sin(x)
+Order 1 Taylor Expansion: 0
+Order 2 Taylor Expansion: x
+Order 3 Taylor Expansion: x
+Order 4 Taylor Expansion: -x**3/6 + x
+
+Function: cos(x)
+Order 1 Taylor Expansion: 1
+Order 2 Taylor Expansion: 1
+Order 3 Taylor Expansion: 1 - x**2/2
+Order 4 Taylor Expansion: 1 - x**2/2
+
+Function: tan(x)
+Order 1 Taylor Expansion: 0
+Order 2 Taylor Expansion: x
+Order 3 Taylor Expansion: x
+Order 4 Taylor Expansion: x**3/3 + x
+
+Function: exp(x)
+Order 1 Taylor Expansion: 1
+Order 2 Taylor Expansion: x + 1
+Order 3 Taylor Expansion: x**2/2 + x + 1
+Order 4 Taylor Expansion: x**3/6 + x**2/2 + x + 1
+
+Function: log(x + 1)
+Order 1 Taylor Expansion: 0
+Order 2 Taylor Expansion: x
+Order 3 Taylor Expansion: -x**2/2 + x
+Order 4 Taylor Expansion: x**3/3 - x**2/2 + x
+
+Function: log(x + 2)
+Order 1 Taylor Expansion: log(2)
+Order 2 Taylor Expansion: x/2 + log(2)
+Order 3 Taylor Expansion: -x**2/8 + x/2 + log(2)
+Order 4 Taylor Expansion: x**3/24 - x**2/8 + x/2 + log(2)
+
+Function: cosh(x)
+Order 1 Taylor Expansion: 1
+Order 2 Taylor Expansion: 1
+Order 3 Taylor Expansion: x**2/2 + 1
+Order 4 Taylor Expansion: x**2/2 + 1
+
+Function: sinh(x)
+Order 1 Taylor Expansion: 0
+Order 2 Taylor Expansion: x
+Order 3 Taylor Expansion: x
+Order 4 Taylor Expansion: x**3/6 + x
+
+Function: tanh(x)
+Order 1 Taylor Expansion: 0
+Order 2 Taylor Expansion: x
+Order 3 Taylor Expansion: x
+Order 4 Taylor Expansion: -x**3/3 + x
+
+Function: erf(x)
+Order 1 Taylor Expansion: 0
+Order 2 Taylor Expansion: 2*x/sqrt(pi)
+Order 3 Taylor Expansion: 2*x/sqrt(pi)
+Order 4 Taylor Expansion: -2*x**3/(3*sqrt(pi)) + 2*x/sqrt(pi)
+
+Function: erfc(x)
+Order 1 Taylor Expansion: 1
+Order 2 Taylor Expansion: -2*x/sqrt(pi) + 1
+Order 3 Taylor Expansion: -2*x/sqrt(pi) + 1
+Order 4 Taylor Expansion: 2*x**3/(3*sqrt(pi)) - 2*x/sqrt(pi) + 1
+
+Function: gamma(x)
+Order 1 Taylor Expansion: -EulerGamma + 1/x
+Order 2 Taylor Expansion: x*(EulerGamma**2/2 + pi**2/12) - EulerGamma + 1/x
+Order 3 Taylor Expansion: x**2*(-EulerGamma*pi**2/12 - zeta(3)/3 - EulerGamma**3/6) + x*(EulerGamma**2/2 + pi**2/12) - EulerGamma + 1/x
+Order 4 Taylor Expansion: x**3*(EulerGamma**4/24 + EulerGamma**2*pi**2/24 + EulerGamma*zeta(3)/3 + pi**4/160) + x**2*(-EulerGamma*pi**2/12 - zeta(3)/3 - EulerGamma**3/6) + x*(EulerGamma**2/2 + pi**2/12) - EulerGamma + 1/x
+
+Function: beta(x + 1, 2)
+Order 1 Taylor Expansion: 1/2
+Order 2 Taylor Expansion: 1/2 - 3*x/4
+Order 3 Taylor Expansion: 7*x**2/8 - 3*x/4 + 1/2
+Order 4 Taylor Expansion: -15*x**3/16 + 7*x**2/8 - 3*x/4 + 1/2
+
+Function: sin(x**2)
+Order 1 Taylor Expansion: 0
+Order 2 Taylor Expansion: 0
+Order 3 Taylor Expansion: x**2
+Order 4 Taylor Expansion: x**2
+
+Function: exp(x**2)
+Order 1 Taylor Expansion: 1
+Order 2 Taylor Expansion: 1
+Order 3 Taylor Expansion: x**2 + 1
+Order 4 Taylor Expansion: x**2 + 1
+
+Function: log(x**2 + 1)
+Order 1 Taylor Expansion: 0
+Order 2 Taylor Expansion: 0
+Order 3 Taylor Expansion: x**2
+Order 4 Taylor Expansion: x**2
+
