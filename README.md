@@ -14,3 +14,4 @@ Specific Task 3: Use Transformer model
 Please train a Transformer  model to learn the Taylor expansion of each function.
 
 
+NOTE: Due to constraints within my system, I have trained on a small dataset. However, it is recognized that models trained on larger datasets tend to exhibit greater accuracy and efficiency in performing Task 2 and Task 3. Further enhancements can be achieved by increasing the number of epochs and the maximum length parameter, though at the cost of additional time investment.
